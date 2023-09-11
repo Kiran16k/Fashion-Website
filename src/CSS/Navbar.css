@@ -1,0 +1,112 @@
+.navbar-top-header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #446084;
+  min-height: 23px;
+  padding-top: 6px;
+  font-size: 0.8em;
+  gap: 6%;
+}
+.navbar-top-right {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.navbar-top-right-list {
+  display: flex;
+}
+.uppercase {
+  color: white;
+  text-transform: uppercase;
+}
+.navbarSub-logo {
+  margin-left: -5%;
+}
+.navbarSub-logo-logo {
+  max-height: 45px;
+}
+.navbar-top-right-link {
+  color: white;
+  text-decoration: none;
+}
+.separator {
+  margin: 0 5px;
+  color: whitesmoke;
+}
+.navbarSub-main {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: whitesmoke;
+  z-index: 100;
+  opacity: 0.8;
+}
+.navbarSub-login {
+  margin-left: 4%;
+}
+.navbarSub-ul-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  gap: 16px;
+}
+.navbarSub-list {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+.navbarSub-link {
+  color: black;
+  display: flex;
+}
+.navbarSub-login-list {
+  display: flex;
+  list-style: none;
+  gap: 7px;
+}
+.navbarSub-link {
+  text-decoration: none;
+}
+.navbarSub-logo img {
+  vertical-align: super;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar-top-header {
+    font-size: 0.9em;
+  }
+
+  .gap {
+    gap: 4%;
+  }
+
+  .navbarSub-logo-logo {
+    max-height: 35px;
+  }
+
+  .separator {
+    margin: 0 3px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .navbar-top-header {
+    min-height: 40px;
+  }
+
+  .navbarSub-logo-logo {
+    max-height: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-top-header {
+    min-height: 30px;
+    padding-top: 8px;
+  }
+}
